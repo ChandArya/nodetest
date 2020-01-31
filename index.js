@@ -5,7 +5,7 @@ var cors = require('cors');
 var bodyParser = require('body-parser');
 const app=express();
 const port=8080;//changes port no
-const vrrr={hello: 'login',arr:[{name:'hgghhg'},{name:'hgghhg'}]};
+const vrrr={hello: 'login',arr:[{name:'hgghhg'},{name:'hgghhg'},{node:'testing'}]};
 const vrrr333={hello: 'profile',arr:[{name:'hgghhg',email:"chandangupta010@gmail.com"},{name:'hgghhg',email:"chandangupta010@gmail.com"}]};
 app.get('/',(req,res)=>{
     res.json(vrrr);
